@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Weather</title>
+</head>
+
+<body class="bg-secondary">
+
+    <!-- <div class="bg-img align-items-center" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); width:100vw; height:800px"> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>Weather</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Contacts</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+    </nav>
+
+    <div class="px-4 ">
+        <form
+            class="position-relative jumbotron jumbotron-fluid mt-5 bg-light rounded text-center align-items-center justify-content-center"
+            style="width:100%" action="/" method="post">
+            <div class=" border border-dark position-relative z-index-1">
+                <h1 class="display-4">Weather Report</h1>
+                <p class="lead">Find latest weather updates right here.</p>
+                <label for="cityInput">City Name: </label>
+                <input id="cityInput" type="text" name="cityName">
+                <button class="btn btn-primary" type="submit">GO</button>
+            </div>
+        </form>
+
+    </div>
+    <!-- <div class="has-bg-img position-relative"> -->
+
+
+    <!-- <div class="bg-img obj-fit-cover" style="width: 100%; height:50%"
+            style="background-image: url('https://images.pexels.com/photos/14115170/pexels-photo-14115170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); height:100%; width:100%;">
+        </div> -->
+
+    <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div> -->
+</body>
+
+</html>
