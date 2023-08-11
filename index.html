@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <title>Weather</title>
 </head>
 
-<body class="bg-secondary">
+<body class="bg-light">
 
     <!-- <div class="bg-img align-items-center" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); width:100vw; height:800px"> -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+    <nav class="navbar navbar-expand-lg bg-warning px-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><b>Weather</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,20 +42,24 @@
             </div>
     </nav>
 
-    <div class="px-4 ">
-        <form
-            class="position-relative jumbotron jumbotron-fluid mt-5 bg-light rounded text-center align-items-center justify-content-center"
-            style="width:100%" action="/" method="post">
-            <div class=" border border-dark position-relative z-index-1">
-                <h1 class="display-4">Weather Report</h1>
-                <p class="lead">Find latest weather updates right here.</p>
-                <label for="cityInput">City Name: </label>
-                <input id="cityInput" type="text" name="cityName">
-                <button class="btn btn-primary" type="submit">GO</button>
+    <div class="container px-4">
+        <form class="position-relative mt-5 mb-5" action="/" method="post">
+            <div class="jumbotron jumbotron-fluid bg-light rounded text-center shadow">
+                <div class="container">
+                    <h1 class="display-4">Weather Report</h1>
+                    <p class="lead">Find the latest weather updates right here.</p>
+                    <div class="form-group">
+                        <label for="cityInput">City Name:</label>
+                        <input id="cityInput" type="text" name="cityName" class="form-control">
+                    </div>
+                    <button class="btn btn-primary" type="submit">GO</button>
+                </div>
             </div>
         </form>
-
     </div>
+
+
+
     <!-- <div class="has-bg-img position-relative"> -->
 
 
